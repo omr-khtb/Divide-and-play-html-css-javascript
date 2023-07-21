@@ -1,0 +1,41 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <header class="main__hero">
+      <h1>Divide and PLAY! <br>By: Omar Khtab</h1>
+      <p id="place" > 1- This game needs two players <br> 2- you both have to agree on a number to be the first number <br> 3- the first player will choose a number from the list and think of two numbers the multiplaction of this two numbers equals the number he chose<br> 
+        4- now plyer two turn repating same steps <br> 5- the last player that will be able to find a number to be devided wins <br><br> 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 &lt-- this is how to choose the number you want to devide  </p>
+    </header>
+    <section id="section2" data-nav="Section 2" class="sectionn your-active-class">
+      <div class="landing__container">
+        <h2>Game</h2>
+       
+       <input type="text" placeholder="fIrst Number" id="num">
+       <input type="text" placeholder="Choose Number 1-15 to divide" id="choice">
+       <input type="text" placeholder="Divisor 1" id="d1">
+       <input type="text" placeholder="Divisor 2" id="d2">
+       <p id="result">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</p>
+       
+       <p id="error" style="color:red;"></p>
+       <p id="winner"></p>
+       <input type="submit" placeholder="Go" id="btn" value="DEVIDE">
+    
+      </div>
+    </section>
+ 
+
+  </main>
+
+   <script src="./js/app.js"></script>
+</body>
+</html>
